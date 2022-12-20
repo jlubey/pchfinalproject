@@ -9,7 +9,3 @@ The code is listed here as whcl.py. I built the code around a radio station in U
 The code also includes a bonus feature: stumped on making a playlist of music that you like? You can remove the # from line 80 and run the code - it will choose and display 10 songs at random pulled from what has been playing at the station based on its Spinitron entries. The more often you run the code, the more songs will be scraped to pull for your random playlist!
 
 And as always, support your local independent radio stations. Stream online at <a href="https://www.whcl.org">whcl.org</a>!
-
-whcl.py - Spinitron webscraping code (WHCL)
-WHCL_songlist.htm - HTML list of scraped songs from Spinitron
-projectsite.html - Website HTML for final project
