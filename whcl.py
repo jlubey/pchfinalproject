@@ -26,7 +26,6 @@ mydict = {'song':songs,
 
 whcl_df = pd.DataFrame(mydict)
 
-
 # get songs from recent playlists
 recent = whcl.find("div", "recent-playlists")
 recent_atags = recent.find_all("a")
@@ -78,7 +77,8 @@ df.to_csv(file_name_output, index=False)
 csvfile = pd.read_csv('radio_no_dupes.csv')
 
 # choose and print a playlist of random songs
-#print(csvfile.sample(10))
+# print(csvfile.sample(10))
 
+# create HTML page
 csvfile.to_html("WHCL.htm")
 html_file = csvfile.to_html()
